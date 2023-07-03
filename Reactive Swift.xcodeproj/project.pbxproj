@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32644AA72A535DEC00DA55EF /* TechStoreApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32644AA62A535DEC00DA55EF /* TechStoreApiManager.swift */; };
+		32644AA92A535ECC00DA55EF /* ApiDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32644AA82A535ECC00DA55EF /* ApiDataModel.swift */; };
+		32644AAB2A53608500DA55EF /* FoodStoreApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32644AAA2A53608500DA55EF /* FoodStoreApiManager.swift */; };
+		32644AAF2A53628500DA55EF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32644AAE2A53628500DA55EF /* ViewModel.swift */; };
+		32644AB12A5362C700DA55EF /* ApiManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32644AB02A5362C700DA55EF /* ApiManagerProtocol.swift */; };
 		328347B42A5347E3007029CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328347B32A5347E3007029CC /* AppDelegate.swift */; };
 		328347B62A5347E3007029CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328347B52A5347E3007029CC /* SceneDelegate.swift */; };
 		328347B82A5347E3007029CC /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328347B72A5347E3007029CC /* MainVC.swift */; };
@@ -15,11 +20,16 @@
 		328347C02A5347E6007029CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328347BF2A5347E6007029CC /* Assets.xcassets */; };
 		328347C32A5347E6007029CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328347C12A5347E6007029CC /* LaunchScreen.storyboard */; };
 		328347CB2A534D94007029CC /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328347CA2A534D94007029CC /* DetailsVC.swift */; };
-		67C586C1713D45C321B20641 /* Pods_Reactive_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD4DB3533524AFD3937050 /* Pods_Reactive_Swift.framework */; };
+		B3EBC760534AB783B330C18F /* Pods_Reactive_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1CA4BFA7EFC524D7E928B /* Pods_Reactive_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EFD4DB3533524AFD3937050 /* Pods_Reactive_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD1CA4BFA7EFC524D7E928B /* Pods_Reactive_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reactive_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32644AA62A535DEC00DA55EF /* TechStoreApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechStoreApiManager.swift; sourceTree = "<group>"; };
+		32644AA82A535ECC00DA55EF /* ApiDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDataModel.swift; sourceTree = "<group>"; };
+		32644AAA2A53608500DA55EF /* FoodStoreApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreApiManager.swift; sourceTree = "<group>"; };
+		32644AAE2A53628500DA55EF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		32644AB02A5362C700DA55EF /* ApiManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManagerProtocol.swift; sourceTree = "<group>"; };
 		328347B02A5347E3007029CC /* Reactive Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reactive Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		328347B32A5347E3007029CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		328347B52A5347E3007029CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +40,8 @@
 		328347C22A5347E6007029CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328347C42A5347E6007029CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328347CA2A534D94007029CC /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
-		436455AB10BFA8FC98DAF695 /* Pods-Reactive Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.debug.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		C3B7D8ACAE05E48867E64BD6 /* Pods-Reactive Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.release.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.release.xcconfig"; sourceTree = "<group>"; };
+		59A29075D2506E4FD60211BE /* Pods-Reactive Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.release.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.release.xcconfig"; sourceTree = "<group>"; };
+		607FAAC51C3D97471FD7F2F0 /* Pods-Reactive Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.debug.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,20 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C586C1713D45C321B20641 /* Pods_Reactive_Swift.framework in Frameworks */,
+				B3EBC760534AB783B330C18F /* Pods_Reactive_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32644AAC2A53624200DA55EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				32644AA82A535ECC00DA55EF /* ApiDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32644AAD2A53625E00DA55EF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				32644AB02A5362C700DA55EF /* ApiManagerProtocol.swift */,
+				32644AA62A535DEC00DA55EF /* TechStoreApiManager.swift */,
+				32644AAA2A53608500DA55EF /* FoodStoreApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		328347A72A5347E3007029CC = {
 			isa = PBXGroup;
 			children = (
 				328347B22A5347E3007029CC /* Reactive Swift */,
 				328347B12A5347E3007029CC /* Products */,
-				803470D9AC931F0ED6D675EC /* Pods */,
-				888FAB52EC621A74A7138B96 /* Frameworks */,
+				5EC39CD54EDD4657D6716FFC /* Pods */,
+				9C2D999D22374C990B1EF657 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +98,9 @@
 				328347B32A5347E3007029CC /* AppDelegate.swift */,
 				328347B52A5347E3007029CC /* SceneDelegate.swift */,
 				328347CC2A534DCB007029CC /* ViewControllers */,
+				32644AAD2A53625E00DA55EF /* Network */,
+				32644AAC2A53624200DA55EF /* Models */,
+				32644AAE2A53628500DA55EF /* ViewModel.swift */,
 				328347B92A5347E3007029CC /* Main.storyboard */,
 				328347BF2A5347E6007029CC /* Assets.xcassets */,
 				328347C12A5347E6007029CC /* LaunchScreen.storyboard */,
@@ -88,20 +119,19 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		803470D9AC931F0ED6D675EC /* Pods */ = {
+		5EC39CD54EDD4657D6716FFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				436455AB10BFA8FC98DAF695 /* Pods-Reactive Swift.debug.xcconfig */,
-				C3B7D8ACAE05E48867E64BD6 /* Pods-Reactive Swift.release.xcconfig */,
+				607FAAC51C3D97471FD7F2F0 /* Pods-Reactive Swift.debug.xcconfig */,
+				59A29075D2506E4FD60211BE /* Pods-Reactive Swift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		888FAB52EC621A74A7138B96 /* Frameworks */ = {
+		9C2D999D22374C990B1EF657 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EFD4DB3533524AFD3937050 /* Pods_Reactive_Swift.framework */,
+				2AD1CA4BFA7EFC524D7E928B /* Pods_Reactive_Swift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,11 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 328347C72A5347E6007029CC /* Build configuration list for PBXNativeTarget "Reactive Swift" */;
 			buildPhases = (
-				66EB047CC1C3E3F8905AD532 /* [CP] Check Pods Manifest.lock */,
+				8D4334B2DCF3797EBAE167A0 /* [CP] Check Pods Manifest.lock */,
 				328347AC2A5347E3007029CC /* Sources */,
 				328347AD2A5347E3007029CC /* Frameworks */,
 				328347AE2A5347E3007029CC /* Resources */,
-				31D82C34E4EFEC0A378C7B2B /* [CP] Embed Pods Frameworks */,
+				1A3494046F68C85578C8D77B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,7 +205,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		31D82C34E4EFEC0A378C7B2B /* [CP] Embed Pods Frameworks */ = {
+		1A3494046F68C85578C8D77B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -192,7 +222,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		66EB047CC1C3E3F8905AD532 /* [CP] Check Pods Manifest.lock */ = {
+		8D4334B2DCF3797EBAE167A0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -222,9 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				328347B82A5347E3007029CC /* MainVC.swift in Sources */,
+				32644AAF2A53628500DA55EF /* ViewModel.swift in Sources */,
 				328347B42A5347E3007029CC /* AppDelegate.swift in Sources */,
 				328347BE2A5347E3007029CC /* Reactive_Swift.xcdatamodeld in Sources */,
 				328347B62A5347E3007029CC /* SceneDelegate.swift in Sources */,
+				32644AA72A535DEC00DA55EF /* TechStoreApiManager.swift in Sources */,
+				32644AA92A535ECC00DA55EF /* ApiDataModel.swift in Sources */,
+				32644AAB2A53608500DA55EF /* FoodStoreApiManager.swift in Sources */,
+				32644AB12A5362C700DA55EF /* ApiManagerProtocol.swift in Sources */,
 				328347CB2A534D94007029CC /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,7 +402,7 @@
 		};
 		328347C82A5347E6007029CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436455AB10BFA8FC98DAF695 /* Pods-Reactive Swift.debug.xcconfig */;
+			baseConfigurationReference = 607FAAC51C3D97471FD7F2F0 /* Pods-Reactive Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,7 +431,7 @@
 		};
 		328347C92A5347E6007029CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3B7D8ACAE05E48867E64BD6 /* Pods-Reactive Swift.release.xcconfig */;
+			baseConfigurationReference = 59A29075D2506E4FD60211BE /* Pods-Reactive Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
