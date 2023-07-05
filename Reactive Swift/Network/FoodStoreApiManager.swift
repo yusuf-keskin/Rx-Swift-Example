@@ -10,7 +10,11 @@ import RxSwift
 
 class FoodStoreApiManager: ApiManagerProtocol {
     
-    let publisher = PublishSubject<ApiDataModel>()
+    let publisher = PublishSubject<[ApiDataModel]>()
+    
+    init(){
+        getStubApiData()
+    }
     
     func getStubApiData() {
         
@@ -22,9 +26,10 @@ class FoodStoreApiManager: ApiManagerProtocol {
 //            ApiDataModel(name: "Altın Kaplama Pasta", price: 850)
         ]
         
-        apiResponseStub.forEach { model in
-            publisher.onNext(model)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            self.publisher.onNext(apiResponseStub)
         }
+        
     }
     
 }

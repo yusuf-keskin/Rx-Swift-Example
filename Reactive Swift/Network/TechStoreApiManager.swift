@@ -10,7 +10,11 @@ import RxSwift
 
 class TechStoreApiManager: ApiManagerProtocol {
     
-    let publisher = PublishSubject<ApiDataModel>()
+    let publisher = PublishSubject<[ApiDataModel]>()
+    
+    public init(){
+        getStubApiData()
+    }
     
     func getStubApiData() {
         let apiResponseStub = [
@@ -20,9 +24,12 @@ class TechStoreApiManager: ApiManagerProtocol {
             ApiDataModel(name: "Xbox Series X", price: 500),
             ApiDataModel(name: "Air Frier", price: 850)
         ]
-        apiResponseStub.forEach { model in
-            publisher.onNext(model)
+        
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+            self.publisher.onNext(apiResponseStub)
         }
     }
+    
     
 }

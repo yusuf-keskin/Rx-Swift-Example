@@ -20,6 +20,7 @@
 		328347C02A5347E6007029CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328347BF2A5347E6007029CC /* Assets.xcassets */; };
 		328347C32A5347E6007029CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328347C12A5347E6007029CC /* LaunchScreen.storyboard */; };
 		328347CB2A534D94007029CC /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328347CA2A534D94007029CC /* DetailsVC.swift */; };
+		32BFA3922A5499FF009A6ADD /* ReactiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BFA3912A5499FF009A6ADD /* ReactiveCell.swift */; };
 		B3EBC760534AB783B330C18F /* Pods_Reactive_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AD1CA4BFA7EFC524D7E928B /* Pods_Reactive_Swift.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		328347C22A5347E6007029CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328347C42A5347E6007029CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		328347CA2A534D94007029CC /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		32BFA3912A5499FF009A6ADD /* ReactiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveCell.swift; sourceTree = "<group>"; };
 		59A29075D2506E4FD60211BE /* Pods-Reactive Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.release.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.release.xcconfig"; sourceTree = "<group>"; };
 		607FAAC51C3D97471FD7F2F0 /* Pods-Reactive Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive Swift.debug.xcconfig"; path = "Target Support Files/Pods-Reactive Swift/Pods-Reactive Swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				328347C12A5347E6007029CC /* LaunchScreen.storyboard */,
 				328347C42A5347E6007029CC /* Info.plist */,
 				328347BC2A5347E3007029CC /* Reactive_Swift.xcdatamodeld */,
+				32BFA3912A5499FF009A6ADD /* ReactiveCell.swift */,
 			);
 			path = "Reactive Swift";
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				32644AAF2A53628500DA55EF /* ViewModel.swift in Sources */,
 				328347B42A5347E3007029CC /* AppDelegate.swift in Sources */,
 				328347BE2A5347E3007029CC /* Reactive_Swift.xcdatamodeld in Sources */,
+				32BFA3922A5499FF009A6ADD /* ReactiveCell.swift in Sources */,
 				328347B62A5347E3007029CC /* SceneDelegate.swift in Sources */,
 				32644AA72A535DEC00DA55EF /* TechStoreApiManager.swift in Sources */,
 				32644AA92A535ECC00DA55EF /* ApiDataModel.swift in Sources */,

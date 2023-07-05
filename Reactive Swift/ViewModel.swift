@@ -10,7 +10,7 @@ import RxSwift
 
 class ViewModel {
     
-    let combinedPublisher = PublishSubject<[ApiDataModel]>()
+    let combinedPublisher = ReplaySubject<[ApiDataModel]>.create(bufferSize: 10)
     
     let techApi : ApiManagerProtocol
     let foodApi : ApiManagerProtocol
@@ -20,12 +20,13 @@ class ViewModel {
     init(techApi: ApiManagerProtocol, foodApi: ApiManagerProtocol) {
         self.techApi = techApi
         self.foodApi = foodApi
+        getApiData()
     }
     
     func getApiData() {
-        Observable.zip(techApi.publisher, foodApi.publisher).subscribe { [weak self] model1, model2 in
-            self?.combinedPublisher.onNext([model1, model2])
-            
+        Observable.zip(techApi.publisher, foodApi.publisher).subscribe {
+            model1, model2 in
+            self.combinedPublisher.onNext(model1 + model2)
         }.disposed(by: disposeBag)
-    }    
+    }
 }

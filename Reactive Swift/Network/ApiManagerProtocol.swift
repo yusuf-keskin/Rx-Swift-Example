@@ -9,5 +9,5 @@ import Foundation
 import RxSwift
 
 protocol ApiManagerProtocol {
-    var publisher : PublishSubject<ApiDataModel> { get }
+    var publisher : PublishSubject<[ApiDataModel]> { get }
 }
